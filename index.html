@@ -1,0 +1,66 @@
+---
+layout: page
+title: Recent Builds
+excerpt: "tomato-arm builds in Chinese."
+search_omit: true
+---
+
+<br>
+build #{{ site.data.ss.build }} <a href="https://travis-ci.org/oglopss/tomato-arm-ci"><img src="https://travis-ci.org/oglopss/tomato-arm-ci.svg" /></a>
+<ul>
+{% assign sorted_ss = site.data.ss.files | sort %}
+{% for f in sorted_ss %}
+{% assign words = f | split: ' ' %}
+<li>
+    {{ words[1] }} - <a href="{{ site.url }}/download/{{ words[2] }}">{{ words[2] }}</a>
+</li>
+{% endfor %}
+</ul>
+<br>
+<br>
+
+<pre><code class="bash">
+$ make help
+ASUS ARM Builds - RT-N18U, RT-AC56U, RT-AC68U, RT-AC68R, RT-AC68P
+ac68e         RT-N18U/AC56U/AC68U(R/P) build VPN
+ac68z         RT-N18U/AC56U/AC68U(R/P) build AIO
+n18e          RT-N18U/AC56S without SMP build VPN
+n18z          RT-N18U/AC56S without SMP build AIO
+DLINK ARM Builds
+dir868l       DLINK DIR868L
+NETGEAR ARM Builds
+r7000e        R7000/R6300v2/R6250 build VPN
+r7000z        R7000/R6300v2/R6250 build AIO
+r6400e        R6400 build VPN - 128K NVRAM
+r6400z        R6400 build AIO - 128K NVRAM
+r7000init     R7000 init build
+r6250init     R6250 init build
+r6300v2init   R6300v2 init build
+r6400init     R6400 init build
+Xiaomi ARM Builds
+r1do          R1D custom build
+HUAWEI ARM Builds
+ws880e        WS880 build VPN
+ws880z        WS880 build AIO
+BUFFALO ARM Builds
+wzr1750e      WZR-1750DHP build VPN
+wzr1750z      WZR-1750DHP build AIO
+LINKSYS ARM Builds
+ea6700e       EA6700/EA6500v2/EA6900 build VPN
+ea6700z       EA6700/EA6500v2/EA6900 build AIO
+
+..etc..      other build configs
+clean        -C router clean
+cleanimage   rm -rf image
+cleantools   clean btools, mksquashfs
+cleankernel  -C Linux distclean (but preserves .config)
+distclean    distclean of Linux & busybox (but preserve .configs)
+prepk        -C Linux oldconfig dep
+</code></pre>
+
+<br>
+<br>
+有关本页面的解说见作者blog:
+<ul>
+<li><a href="https://ilmvfx.wordpress.com/2017/09/13/tomato-arm-cn-on-travis-ci/">tomato-arm 中文版 on travis ci</a></li>
+</ul>
