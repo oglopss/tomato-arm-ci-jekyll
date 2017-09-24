@@ -2,3 +2,4 @@ build: 67
 files:
   - 0002 ac68z 
   - 0004 r6400e tomato-R6400-RT-N5x-CN--140-VPN-128K.trx
+  - 0001 ac68e tomato-ac68e.tar.gz
