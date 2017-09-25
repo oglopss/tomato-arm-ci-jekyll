@@ -1,15 +1,3 @@
-build: 74
+build: 75
 files:
   - 0001 ac68e tomato-ac68e.tar.gz
-  - 0004 r7000e tomato-r7000e.tar.gz
-  - 0002 n18e tomato-n18e.tar.gz
-  - 0005 dir868l tomato-DIR868L-RT-N5x-CN--140-special.trx
-  - 0008 r7000init tomato-R7000-1.28.RT-N5x-CN--140-initial-64K.chk
-  - 0009 r6250init tomato-R6250-1.28.RT-N5x-CN--140-initial-64K.chk
-  - 0006 r6400e tomato-R6400-RT-N5x-CN--140-VPN-128K.trx
-  - 0010 r6300v2init tomato-R6300v2-1.28.RT-N5x-CN--140-initial-64K.chk
-  - 0011 r6400init tomato-R6400-1.28.RT-N5x-CN--140-initial-128K.chk
-  - 0012 r1do tomato-R1D-RT-N5x-CN--140-Custom-64K.trx
-  - 0013 ws880e tomato-WS880-RT-N5x-CN--140-VPN-64K.trx
-  - 0015 wzr1750e tomato-WZR1750-RT-N5x-CN--140-VPN-64K.trx
-  - 0017 ea6700e tomato-ea6700e.tar.gz
