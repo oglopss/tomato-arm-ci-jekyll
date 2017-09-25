@@ -6,3 +6,4 @@ files:
   - 0004 dir868l tomato-DIR868L-RT-N5x-CN--140-special.trx
   - 0006 r7000init tomato-R7000-1.28.RT-N5x-CN--140-initial-64K.chk
   - 0005 r6400e tomato-R6400-RT-N5x-CN--140-VPN-128K.trx
+  - 0007 r6250init tomato-R6250-1.28.RT-N5x-CN--140-initial-64K.chk
