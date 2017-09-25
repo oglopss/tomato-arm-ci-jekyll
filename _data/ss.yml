@@ -2,3 +2,4 @@ build: 75
 files:
   - 0001 ac68e tomato-ac68e.tar.gz
   - 0003 r7000e tomato-r7000e.tar.gz
+  - 0002 n18e tomato-n18e.tar.gz
