@@ -9,3 +9,4 @@ files:
   - 0006 r6400e tomato-R6400-RT-N5x-CN--140-VPN-128K.trx
   - 0010 r6300v2init tomato-R6300v2-1.28.RT-N5x-CN--140-initial-64K.chk
   - 0011 r6400init tomato-R6400-1.28.RT-N5x-CN--140-initial-128K.chk
+  - 0012 r1do tomato-R1D-RT-N5x-CN--140-Custom-64K.trx
