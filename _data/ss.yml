@@ -4,3 +4,4 @@ files:
   - 0004 r7000e tomato-r7000e.tar.gz
   - 0002 n18e tomato-n18e.tar.gz
   - 0005 dir868l tomato-DIR868L-RT-N5x-CN--140-special.trx
+  - 0008 r7000init tomato-R7000-1.28.RT-N5x-CN--140-initial-64K.chk
