@@ -11,3 +11,4 @@ files:
   - 0011 r6400init tomato-R6400-1.28.RT-N5x-CN--140-initial-128K.chk
   - 0012 r1do tomato-R1D-RT-N5x-CN--140-Custom-64K.trx
   - 0013 ws880e tomato-WS880-RT-N5x-CN--140-VPN-64K.trx
+  - 0015 wzr1750e tomato-WZR1750-RT-N5x-CN--140-VPN-64K.trx
